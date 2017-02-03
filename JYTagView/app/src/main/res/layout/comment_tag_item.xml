@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!-- 卡片 四六个问题选项的tag标签（单选）-->
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_question_item"
+        android:text="11"
+        android:textSize="13sp"
+        android:textColor="@drawable/question_textcolor_select"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxEms="23"
+        android:ellipsize="end"
+        android:background="@drawable/question_select"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <!-- 卡片 多个问题选项的tag标签（多选）-->
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_questions_item"
+        android:text="22"
+        android:textSize="13sp"
+        android:textColor="@drawable/question_textcolor_select"
+        android:gravity="center"
+        android:background="@drawable/question_select"
+        android:singleLine="true"
+        android:maxEms="23"
+        android:ellipsize="end"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+    <!--搜索话题和用户的tag标签-->
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_rectangle_bg"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:maxEms="26"
+        android:ellipsize="end"
+        android:text="33"
+        android:textSize="13sp"
+        android:textColor="@color/text_color_1" />
+    <!--技能标签-->
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_skill_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/skill_tag_select"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:maxEms="26"
+        android:ellipsize="end"
+        android:text="33"
+        android:textSize="13sp"
+        android:textColor="@drawable/skill_tag_textcolor" />
+    <!--技能标签-添加-->
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/add_skill_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/skill_tag_add_shap"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:text="+  添加"
+        android:textSize="13sp"
+        android:textColor="@color/blue_main" />
+</RelativeLayout>

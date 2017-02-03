@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <!-- 分割线 -->
+    <color name="split_line">#e5e5e5</color>
+    <!-- 分割模块底色 -->
+    <color name="split_background">#f5f5f5</color>
+    <!-- 失效或未选中的icon -->
+    <color name="invalid_unchecked">#cccccc</color>
+    <!-- 辅助性文字 如：标签等 -->
+    <color name="text_color_1">#999999</color>
+    <!-- 辅助、次要的文字 如：评论等 -->
+    <color name="text_color_2">#666666</color>
+    <!-- 普通级段落信息 如：话题正文、评论区用户名、编辑信息等 -->
+    <color name="text_color_3">#444444</color>
+    <!-- 重要及文字信息、内容标题信息 如：导航栏、头像旁用户名、大榜块标题、类目名称等 -->
+    <color name="text_color_4">#333333</color>
+    <!-- 提示性用色 如：删除、信息提醒等 -->
+    <color name="red_tips">#ff5e5e</color>
+    <!-- 认证会员用色 如：删除、信息提醒等 -->
+    <color name="yellow_vip">#fd9e2f</color>
+    <!-- 需要强调突出的文字、按钮和icon 如：首页与界面相关入口按钮、icon、提示等 -->
+    <color name="blue_main">#00afea</color>
+
+</resources>
